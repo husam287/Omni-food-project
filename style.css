@@ -1,10 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'lato',Arial;
+    box-sizing: border-box;
 
 }
-h1{
-    color: red;
-    font-family: cursive;
+html{
+   
+    color:#000;
+    font-family: 'lato','Arial';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
 }
