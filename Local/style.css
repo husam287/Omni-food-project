@@ -9,7 +9,7 @@
 html{
    
     color:#000;
-    font-family: 'lato','Arial';
+    font-family: 'lato','Arial',sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
@@ -25,6 +25,12 @@ header{
 
 h1{
     margin: 0px;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 240%;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-transform: uppercase;
 }
 
 .hero-box{
