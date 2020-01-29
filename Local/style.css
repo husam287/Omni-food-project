@@ -16,6 +16,71 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+/*heading*/
+
+h1,h2,h3{
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 300%;
+    word-spacing: 4px;
+  
+}
+h2{
+    font-size: 240%;
+    word-spacing: 1px;
+    font-size: 200%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h3{
+    font-size: 110%;
+    letter-spacing: 0.4px;
+    margin-bottom: 20px;
+    word-spacing: 0.5px;
+    text-align: center;
+    
+}
+
+h2:after{
+    display: block;
+    background-color:  #e67e22 ;
+    height: 2px;
+    width: 200px;
+    content: " ";
+    margin:0 auto;
+    margin-top: 40px;
+}
+
+
+/*PARAGRAPHS*/
+.long-p1{
+    line-height: 150%;
+    width: 70%;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    
+}
+.box p{
+    font-size: 90%;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 /*HEADER SECTION*/
 header{
@@ -31,21 +96,6 @@ header{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
-
-/*heading*/
-h1{
-    margin-top: 0px;
-    margin-bottom: 20px;
-    color: #ffffff;
-    font-weight: 100;
-    font-size: 240%;
-    letter-spacing: 1px;
-    word-spacing: 4px;
-    text-transform: uppercase;
-    
-}
-
 
 
 /* button style */
@@ -81,11 +131,6 @@ h1{
     background-color:#e67e22;
     color: #fff;
 }
-
-
-
-
-
 
 
 /*NAVBAR SECTION*/
@@ -131,3 +176,32 @@ h1{
 }
 
 
+
+
+
+
+
+
+
+
+
+/*Feature section*/
+section{
+    padding: 100px 0px;
+}
+
+/*BOX IN FEATURE SECTION*/
+.box{
+    padding-right: 30px;
+}
+
+
+/* ICONS */
+.big-icons{
+    display: block;
+    color: #e67e22;
+    font-size: 300%;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
