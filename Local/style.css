@@ -4,6 +4,8 @@
     box-sizing: border-box;
 
 }
+
+
 html{
    
     color:#000;
@@ -12,7 +14,17 @@ html{
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
-.row{
-    max-width: 1140px;
-    margin: 0 auto;
+
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0,0.7)), url(../img/hero.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
 }
+
+h1{
+    margin: 0px;
+}
+
+
