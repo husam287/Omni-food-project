@@ -89,6 +89,45 @@ h1{
 
 
 /*NAVBAR SECTION*/
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+}
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+.nav-items{
+    float: right;
+    margin-top: 45px;
+}
+.nav-items ul{
+    list-style: none;
+}
+.nav-items ul li{
+    display: inline-block;
+    margin-right: 30px;
+    
 
+}
+.nav-items ul li a:link,.nav-items ul li a:visited{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    border-bottom:#e67e22 solid 0px ;
+    padding-bottom: 10px;
+    transition: border 0.2s;
+    font-size: 90%;
+    text-transform: uppercase;
+
+}
+.nav-items ul li a:hover,.nav-items ul li a:active{
+  
+    border-bottom:#e67e22 solid 2px ;
+   
+
+}
 
 
