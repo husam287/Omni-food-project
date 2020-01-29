@@ -205,3 +205,30 @@ section{
     text-align: center;
     margin: auto;
 }
+
+
+
+
+
+
+
+/*MEAL SECTION*/
+.meals{
+    width: 100%;
+}
+.meals li{
+    display: block;
+    margin: 0;
+    float: left;
+    width: 25%;
+    height: auto;
+    list-style: none;
+
+}
+.meals li figure{
+    width: 100%;
+}
+.meals li figure img{
+    width: 100%;
+    height: auto;
+}
